@@ -1,0 +1,2 @@
+<?php echo $__env->make('blog.partials.messages', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH /Applications/MAMP/htdocs/larablog-master/resources/views/admin/partials/messages.blade.php ENDPATH**/ ?>

@@ -1,0 +1,55 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+
+
+<IfModule mod_headers.c>
+
+Header set Strict-Transport-Security "max-age=31536000"
+
+Header set X-Content-Type-Options nosniff
+
+Header set X-Frame-Options "sameorigin"
+
+Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' "
+
+Header set Referrer-Policy "origin-when-cross-origin"
+
+Header set X-Content-Type-Options "nosniff"
+
+Header set X-XSS-Protection "1; mode=block"
+
+Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+
+Header set Permissions-Policy "geolocation 'self'; vibrate 'none'"
+
+Header set Referrer-Policy "same-origin"
+
+Header set Access-Control-Allow-Origin *
+
+Header set Cache-Control "no-cache, no-store, must-revalidate"
+
+Header set Pragma "no-cache"
+
+Header set Expires 0
+
+</IfModule>

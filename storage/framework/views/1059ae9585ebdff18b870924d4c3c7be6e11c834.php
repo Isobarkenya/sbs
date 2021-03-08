@@ -1,0 +1,2 @@
+<?php echo $__env->make('blog.partials.messages', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH /var/www/html/sbs/resources/views/admin/partials/messages.blade.php ENDPATH**/ ?>
