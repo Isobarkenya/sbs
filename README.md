@@ -1,7 +1,5 @@
 ## Larablog
 #### A powerful open source Laravel Blog with WYSWYG and CRUD (Create Read Update Delete) built on [Laravel](http://laravel.com/) 5.8 and [Bootstrap](http://getbootstrap.com) 4
-
-[![Build Status](https://travis-ci.org/jeremykenedy/larablog.svg?branch=master)](https://travis-ci.org/jeremykenedy/larablog)
 [![StyleCI](https://github.styleci.io/repos/40459558/shield?branch=master)](https://github.styleci.io/repos/40459558)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jeremykenedy/larablog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jeremykenedy/larablog/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/jeremykenedy/larablog/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
@@ -126,9 +124,6 @@ php artisan vendor:publish --tag=laravelroles
 |admin@admin.com|password|Super Admin Access|
 
 * Controlled by the `.env` file.
-
-##### Themes Seed List
-  * [ThemesTableSeeder](https://github.com/jeremykenedy/larablog/blob/master/database/seeds/ThemesTableSeeder.php)
 
 ### Commands
 #### Generate Site Map
@@ -310,33 +305,7 @@ RECAPTCHA_CDN=https://www.google.com/recaptcha/api.js
 
 ```
 
-### Screenshots
-![LaraBlog](https://s3-us-west-2.amazonaws.com/larablog.io/1-larablog-home.jpg)
-![LaraBlog Post](https://s3-us-west-2.amazonaws.com/larablog.io/2-larablog-post.jpg)
-![LaraBlog Post Comments](https://s3-us-west-2.amazonaws.com/larablog.io/22-larablog-comments.jpg)
-![LaraBlog Tags](https://s3-us-west-2.amazonaws.com/larablog.io/3-larablog-tags.jpg)
-![LaraBlog Author](https://s3-us-west-2.amazonaws.com/larablog.io/4-larablog-author.jpg)
-![LaraBlog Authors](https://s3-us-west-2.amazonaws.com/larablog.io/5-larablog-authors.jpg)
-![LaraBlog Contact](https://s3-us-west-2.amazonaws.com/larablog.io/6-larablog-contact.jpg)
-![LaraBlog Admin Dashboard](https://s3-us-west-2.amazonaws.com/larablog.io/7-larablog-admin-dashboard.jpg)
-![LaraBlog Admin Posts](https://s3-us-west-2.amazonaws.com/larablog.io/8-larablog-admin-posts.jpg)
-![LaraBlog Admin Post Create](https://s3-us-west-2.amazonaws.com/larablog.io/9-larablog-admin-post-create.jpg)
-![LaraBlog Admin Post Edit](https://s3-us-west-2.amazonaws.com/larablog.io/10-larablog-admin-post-edit.jpg)
-![LaraBlog Admin Tags](https://s3-us-west-2.amazonaws.com/larablog.io/11-larablog-admin-post-tags.jpg)
-![LaraBlog Admin Tag Edit](https://s3-us-west-2.amazonaws.com/larablog.io/12-larablog-admin-post-tag-edit.jpg)
-![LaraBlog Admin Files](https://s3-us-west-2.amazonaws.com/larablog.io/13-larablog-admin-files.jpg)
-![LaraBlog Admin File Manager Pop Up](https://s3-us-west-2.amazonaws.com/larablog.io/21-larablog-admin-file-manager-pop-up.jpg)
-![LaraBlog Admin Upload](https://s3-us-west-2.amazonaws.com/larablog.io/14-larablog-admin-files-upload.jpg)
-![LaraBlog Admin Users](https://s3-us-west-2.amazonaws.com/larablog.io/15-larablog-admin-users.jpg)
-![LaraBlog Admin User](https://s3-us-west-2.amazonaws.com/larablog.io/16-larablog-admin-user.jpg)
-![LaraBlog Admin User Edit](https://s3-us-west-2.amazonaws.com/larablog.io/17-larablog-admin-user-edit.jpg)
-![LaraBlog Admin Sitemap](https://s3-us-west-2.amazonaws.com/larablog.io/20-larablog-admin-sitemap-gen.jpg)
-![LaraBlog Admin PHP Info](https://s3-us-west-2.amazonaws.com/larablog.io/18-larablog-admin-phpinfo.jpg)
-![LaraBlog Admin Activity](https://s3-us-west-2.amazonaws.com/larablog.io/19-larablog-admin-activity.jpg)
-![LaraBlog Admin Themes](https://s3-us-west-2.amazonaws.com/larablog.io/23-larablog-themes.jpg)
-![LaraBlog Admin Theme Edit](https://s3-us-west-2.amazonaws.com/larablog.io/24-larablog-themes-edit.jpg)
-![LaraBlog Admin Theme Add](https://s3-us-west-2.amazonaws.com/larablog.io/25-larablog-themes-add.jpg)
-![LaraBlog Admin Theme Example](https://s3-us-west-2.amazonaws.com/larablog.io/26-larablog-themes-sketchy.jpg)
+
 
 ### File Tree
 
